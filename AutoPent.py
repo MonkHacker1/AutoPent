@@ -9,7 +9,7 @@ def main():
         print(
             "==================================================================="
         )
-        print(conf.colored(conf.text2art("WebMap", "larry3d"), "cyan"))
+        print(conf.colored(conf.text2art("AutoPent", "larry3d"), "cyan"))
         print(
             conf.colored("[>]", "red", attrs=["bold"]) +
             conf.colored("Created by : Aamir Hussain\n", "magenta", attrs=["bold"]))
