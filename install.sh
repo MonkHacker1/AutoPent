@@ -21,5 +21,5 @@ elif [ "$(grep -Ei 'redhat|centos' /etc/*release)" ]; then ##To install on RPM C
 fi
 
 pip3 install --user -r conf/requirements.txt
-sudo ln -s "$(pwd)"/webmap.py /usr/local/bin/webmap
+sudo ln -s "$(pwd)"/AutoPent.py /usr/local/bin/AutoPent
 git clone --depth 1 https://github.com/maurosoria/dirsearch.git ~/.local/share/dirsearch
